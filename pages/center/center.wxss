@@ -1,0 +1,79 @@
+/* pages/center/center.wxss */
+.center-container{
+  padding: 0 24rpx;
+}
+.header-bg{
+  width: 100%;
+  z-index: 1;
+}
+.header{
+  position: relative;
+
+  /* width: 100%; */
+  height: 420rpx;
+  border: 10rpx dashed #698dc1;
+}
+.header-content{
+  width: 80%;
+  z-index: 10;
+  margin: 40rpx 0 0 60rpx;
+}
+.nick-name{
+  font-size: 30rpx;
+  color: #698dc1;
+}
+.motto{
+  font-size: 20rpx;
+  padding-left: 30rpx;
+  color: #0095ff;
+}
+.avatar-wrap{
+  text-align: right;
+}
+.avatar{
+  width: 58px;
+  height: 58px;
+  border-radius: 50% 50%;
+}
+.header-info{
+  display: flex;
+  height: 120rpx;
+}
+.month{
+  padding-left: 30rpx;
+  width: 50rpx;
+}
+.month-num{
+  font-size: 64rpx;
+  color: #ff97bc;
+  line-height: 38rpx;
+}
+.month-unit{
+  font-size: 28rpx;
+  color: #698dc1;
+  padding-left: 20rpx;
+}
+.header-list{
+  margin-left: 36rpx;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.header-list-item{
+  padding-right: 14rpx;
+  text-align: center;
+  color: #083b81;
+}
+.header-record{
+  font-size: 40rpx;
+}
+.header-unit{
+  font-size: 22rpx;
+}
+/* --------------  Boxs --------------------- */
+.boxs{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}

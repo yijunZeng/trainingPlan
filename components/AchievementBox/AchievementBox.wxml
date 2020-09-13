@@ -1,0 +1,17 @@
+<!--components/AchievementBox/AchievementBox.wxml-->
+<view class="achieve-container">
+  <view class="achieve-link">
+    <view class="achieve-text">我的成就</view>
+    <image class="achieve-arrow" src="../../assets/images/icon/common-arrow.png"></image>
+  </view>
+  <view class="achieve-wrap">
+    <view class="achieve-item">
+      <view class="num">6</view>
+      <view class="text">风雨无阻/周</view>
+    </view>
+    <view class="achieve-item">  
+      <view class="num">6</view>
+      <view class="text">累计训练/天</view>
+    </view>
+  </view>
+</view>

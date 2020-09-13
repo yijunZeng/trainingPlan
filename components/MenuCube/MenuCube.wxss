@@ -1,0 +1,19 @@
+/* components/menuCube/MenuCube.wxss */
+.menu-cube-container{
+  padding: 50rpx  24rpx 0 24rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-cube-item{
+  width: 25%;
+  padding-bottom: 10rpx;
+  text-align: center;
+}
+.menu-cube-item .icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+.menu-cube-item .desc{
+  font-size: 24rpx;
+  color:#083b81 ;
+}

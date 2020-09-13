@@ -1,0 +1,41 @@
+/* components/AchievementBox/AchievementBox.wxss */
+.achieve-container{
+  width: 45vw;
+  /* height: 220rpx; */
+  border-radius: 20rpx;
+  box-shadow: 6rpx 6rpx 14rpx #81a6da;
+}
+.achieve-link{
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.achieve-text{
+  padding-right: 16rpx;
+  font-size: 32rpx;
+  color: #083b81;
+}
+.achieve-arrow{
+  width: 40rpx;
+  height: 40rpx;
+}
+.achieve-wrap{
+  display: flex;
+  align-items: center;
+}
+.achieve-item{
+  flex: 1;
+  text-align: center;
+  padding: 30rpx 0 30rpx;
+}
+.achieve-item .num{
+  font-size: 60rpx;
+  font-weight: bold;
+  color: #ff97bc;
+}
+.achieve-item .text{
+  font-size: 24rpx;
+  color: #083b81;
+}

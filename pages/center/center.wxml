@@ -1,0 +1,41 @@
+<!--pages/center/center.wxml-->
+<view class="center-container">
+  <view class="header">
+    <!-- <image class="header-bg" src="../../assets/images/great.jpg"></image> -->
+    <view class="header-content">
+      <view class="nick-name">IslaZyj</view>
+      <view class="motto">@自律才能自由</view>
+      <view class="avatar-wrap">
+        <image class="avatar" src="../../assets/images/person1.png"></image>
+      </view>
+    </view>
+    <view class="header-info">
+      <view class="month">
+        <view class="month-num">9</view>
+        <view class="month-unit">月</view>
+      </view>
+      <view class="header-list">
+        <view class="header-list-item">
+          <view class="header-record">1200</view>
+          <view class="header-unit">累计运动/分钟</view>
+        </view>
+        <view class="header-list-item">
+          <view class="header-record">1200</view>
+          <view class="header-unit">已运动/天</view>
+        </view>
+        <view class="header-list-item">
+          <view class="header-record">1200</view>
+          <view class="header-unit">计划运动/天</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+    <view class="boxs">
+      <achievementBox></achievementBox>
+      <BodyDataBox></BodyDataBox>
+    </view>
+    <view class="menu">
+      <MenuCube></MenuCube>
+    </view>
+</view>

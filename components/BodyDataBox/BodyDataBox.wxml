@@ -1,0 +1,17 @@
+<!--components/BodyDataBox/BodyDataBox.wxml-->
+<view class="bodyData-container">
+  <view class="bodyData-link">
+    <view class="bodyData-text">身体数据</view>
+    <image class="bodyData-arrow" src="../../assets/images/icon/common-arrow.png"></image>
+  </view>
+  <view class="bodyData-wrap">
+    <view class="bodyData-item">
+      <view class="num">6</view>
+      <view class="text">风雨无阻/周</view>
+    </view>
+    <view class="bodyData-item">  
+      <view class="num">6</view>
+      <view class="text">累计训练/天</view>
+    </view>
+  </view>
+</view>

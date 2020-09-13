@@ -8,3 +8,13 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.base-color{
+  color: #0095ff;
+  color: #fd707d;
+  color: #083b81;
+  color: #ff97bc;
+  color: #698dc1;
+  color: #fa4e64;
+  color: #fbde22;
+}

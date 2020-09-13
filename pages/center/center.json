@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "achievementBox":"/components/AchievementBox/AchievementBox",
+    "BodyDataBox":"/components/BodyDataBox/BodyDataBox",
+    "MenuCube":"/components/MenuCube/MenuCube"
+  }
+}

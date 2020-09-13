@@ -1,0 +1,27 @@
+<!--components/menuCube/MenuCube.wxml-->
+<view class="menu-cube-container">
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-weight.png"></image>
+    <view class="desc">记录</view>
+  </view>
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-classify.png"></image>
+    <view class="desc">记录</view>
+  </view>
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-diary.png"></image>
+    <view class="desc">记录</view>
+  </view>
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-actions.png"></image>
+    <view class="desc">记录</view>
+  </view>
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-weight.png"></image>
+    <view class="desc">记录</view>
+  </view>
+  <view class="menu-cube-item">
+    <image class="icon" src="../../assets/images/icon/center-weight.png"></image>
+    <view class="desc">记录</view>
+  </view>
+ </view>
