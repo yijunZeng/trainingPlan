@@ -1,0 +1,22 @@
+{
+  "name": "trainingplan",
+  "version": "1.0.0",
+  "description": "training plan xcx",
+  "main": "app.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yijunZeng/trainingPlan.git"
+  },
+  "author": "yijunZeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yijunZeng/trainingPlan/issues"
+  },
+  "homepage": "https://github.com/yijunZeng/trainingPlan#readme",
+  "dependencies": {
+    "miniprogram-computed": "^2.1.1"
+  }
+}

@@ -1,0 +1,31 @@
+<!--components/Timer/Timer.wxml-->
+<view class="timer-container">
+    <!-- <view class="bg-black"></view> -->
+    <view class="time">00:00</view>
+    <view class="btns">
+        <view class="btn btn-recovery" bindtap="handleLeftBtn">
+           {{btnLeftName}}
+        </view>
+        <view class="btn" bindtap="handleRightBtn">
+            {{btnRightName}}
+        </view>
+    </view>
+    <view class="reconds">
+        <view class="reconds-item">
+            <view class="reconds-name">计次1</view>
+            <view class="reconds-time">00:05</view>
+        </view>
+        <view class="reconds-item">
+            <view class="reconds-name">计次1</view>
+            <view class="reconds-time">00:05</view>
+        </view>
+        <view class="reconds-item color-spacing">
+            <view class="reconds-name">计次1</view>
+            <view class="reconds-time">00:05</view>
+        </view>
+        <view class="reconds-item">
+            <view class="reconds-name">计次1</view>
+            <view class="reconds-time">00:05</view>
+        </view>
+    </view>
+</view>

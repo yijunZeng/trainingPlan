@@ -1,0 +1,13 @@
+<!--components/AntiTimer/AntiTimer.wxml-->
+<view class="anti-timer-container">
+    <view class="bg-black"></view>
+    <view class="timer">
+        <view class="num">{{minutes}}:{{seconds}}</view>
+        <view class="btn" bindtap="start">
+            开始
+        </view>
+        <view class="btn" bindtap="pause">
+            暂停
+        </view>
+    </view>
+</view>

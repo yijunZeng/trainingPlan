@@ -2,12 +2,15 @@
 <view class="center-container">
   <view class="header">
     <!-- <image class="header-bg" src="../../assets/images/great.jpg"></image> -->
-    <view class="header-content">
+    <view wx:if="{{loginFlag}}" class="header-content">
       <view class="nick-name">IslaZyj</view>
       <view class="motto">@自律才能自由</view>
       <view class="avatar-wrap">
         <image class="avatar" src="../../assets/images/person1.png"></image>
       </view>
+    </view>
+    <view wx:else class="header-content-login">
+      <view class="login-btn" bindtap="clickLogin">登录</view>
     </view>
     <view class="header-info">
       <view class="month">
