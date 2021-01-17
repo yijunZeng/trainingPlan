@@ -12,6 +12,7 @@
   </view>
 </view> -->
 <view class="show-time">
-  <Timer></Timer>
+  <!-- <Timer></Timer> -->
+  <Calendar></Calendar>
   <!-- <AntiTimer></AntiTimer> -->
 </view>

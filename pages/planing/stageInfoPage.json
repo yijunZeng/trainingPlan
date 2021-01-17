@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "BaseMovement":"/components/BaseMovement/BaseMovement",
+    "mp-dialog": "weui-miniprogram/dialog/dialog"
+  }
+}

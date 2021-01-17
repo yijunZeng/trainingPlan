@@ -1,0 +1,24 @@
+<!--pages/training/Doing.wxml-->
+<view>
+  <view>日期：20/01 2020</view>
+  <view>预览模式</view><view>实时进行模式</view>
+  <view>热身阶段：</view>
+  <view>
+    <view>
+      平板撑
+    </view>
+    <view>1min * 2组</view>
+    <view>计时⌛️</view>
+  </view>
+  <view>
+    今日训练计划概览：
+    平板撑：1min*2组 
+    踩单车：1min*2组
+    深蹲：10个*10KG
+    深蹲：20个*20KG
+    深蹲：30个*5KG
+    深蹲：20个*30KG
+    深蹲：5个*30KG
+    放松：20分钟
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/training/trainIndex.wxml-->
+<view>
+  <navigator 
+  url="/pages/training/Doing" 
+  hover-class="navigator-hover"
+  >开始训练</navigator>
+</view>

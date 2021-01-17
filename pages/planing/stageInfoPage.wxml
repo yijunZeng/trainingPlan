@@ -1,0 +1,24 @@
+<!--pages/planing/stageInfoPage.wxml-->
+<view>
+  <view class="title">{{title}}阶段</view>
+  <view class="body-wrap">
+    <view wx:for="{{lists}}" wx:for-item="movement" wx:key="index" class="item">
+      <BaseMovement></BaseMovement>
+      <view class="delete-wrap" bindtap="deleteItem" data-idx="{{index}}">
+        <image class="btn-delete" src="../../assets/images/icon/delete.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="btn-wrap">
+    <button class="btn-add" bindtap="add">添加动作</button>
+    <button
+      class="btn-save"
+      bindtap="save"
+    >
+      保存
+    </button>
+  </view>
+  <mp-dialog title="确认弹窗" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+        <view>确定删除此动作吗？</view>
+    </mp-dialog>
+</view>

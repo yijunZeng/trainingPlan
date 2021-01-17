@@ -1,0 +1,13 @@
+<!--components/TagsList/TagsList.wxml-->
+<view class="container">
+  <view 
+    wx:for="{{lists}}" 
+    wx:for-item="tagItem" 
+    wx:key="index" 
+    class="tag-item"
+    bindtap="goto"
+    data-name="{{tagItem.name}}"
+    >
+    {{tagItem.name}}
+  </view>
+</view>

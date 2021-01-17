@@ -1,0 +1,20 @@
+/* components/TagsList/TagsList.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+}
+.tag-item{
+  margin: 0 30rpx;
+  padding: 0 30rpx;
+  background: rgb(85, 123, 138);
+  text-align: center;
+  color: white;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-radius: 16rpx 16rpx;
+}
+.tag-item-active{
+  background: rgb(2, 46, 63);
+  color: white;
+}

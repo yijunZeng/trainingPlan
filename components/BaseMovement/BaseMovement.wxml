@@ -1,0 +1,36 @@
+<!--components/BaseMovement/BaseMovement.wxml-->
+<view class="base-movement-wrap">
+    <view class="top-line">
+        <!-- <BaseInput bind:inputGetValue="inputGetValue" class="action-name" value="{{name}}"></BaseInput>
+        <button bindtap="dge">get</button> -->
+        <input type="text" placeholder="输入动作名称" class="action-name" model:value="{{name}}"/>
+        <view class="timer" bindtap="changeTimeWatch" data-need="{{needTime}}">
+            <image wx:if="{{needTime}}" class="time-icon" src="../../assets/images/icon/countdown-yellow.png"></image>
+            <image wx:else class="time-icon" src="../../assets/images/icon/countdown.png"></image>
+        </view>
+    </view>
+    <view class="line" wx:for="{{movementList}}" wx:for-item="item" wx:key="index">
+        <view class="line-item">
+            <input bindinput='getInputValue' data-name="weight" data-idx="{{index}}" type="text" class="action-input" value="{{item.weight}}"/>
+            <text class="action-text">kg</text>
+        </view>
+        <view hidden="{{needTime}}" class="line-item">
+            <input bindblur='getInputValue' data-name="number" data-idx="{{index}}" type="text" class="action-input" value="{{item.number}}"/>
+            <text class="action-text">个</text>
+        </view>
+        <view hidden="{{!needTime}}" class="line-item">
+            <input bindblur='getInputValue' data-name="minutes" data-idx="{{index}}" value="{{item.minutes}}" type="text" class="action-input"/>
+            <text class="action-text">Min</text> 
+        </view>
+        <image 
+            bindtap="deleteItem" 
+            data-idx="{{index}}" 
+            class="action-add" 
+            src="../../assets/images/icon/reduce.png">
+        </image>
+    </view>
+    <view class="line-icon">
+        <image class="action-add" bindtap="addMovement" src="../../assets/images/icon/action_add.png"></image>
+    </view>
+    <!-- <view bindtap="submit">提交</view> -->
+</view>

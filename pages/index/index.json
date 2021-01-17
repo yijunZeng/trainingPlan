@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "Timer":"/components/Timer/Timer",
-    "AntiTimer":"/components/AntiTimer/AntiTimer"
+    "AntiTimer":"/components/AntiTimer/AntiTimer",
+    "Calendar": "/components/Calendar/Calendar"
   }
 }

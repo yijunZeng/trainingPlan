@@ -1,0 +1,48 @@
+/* components/Calendar/Calendar.wxss */
+.header-line{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560rpx;
+}
+.month-text{
+    flex: 1;
+    text-align: center;
+    color: rgb(245, 38, 38);
+}
+.turn-left,.turn-right{
+    padding: 0 30rpx;
+    width: 30rpx;
+    height: 30rpx;
+}
+.week-item{
+    width: 80rpx;
+    height: 90rpx;
+    line-height: 100rpx;
+    text-align: center;
+    /* background: #cccccc; */
+}
+.week-dates{
+    margin: 0 auto;
+    width: 560rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-items: center;
+    align-items: center;
+}
+.date-item{
+    width: 80rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    color: #666666;
+    /* background: #ccb2b2; */
+}
+.current-date{
+    color: rgb(3, 52, 187);
+}
+.date-active{
+    background: #a2e1ff;
+}

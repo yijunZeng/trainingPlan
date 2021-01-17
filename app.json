@@ -1,34 +1,38 @@
 {
-  "pages":[
+  "pages": [
+    "pages/training/trainIndex",
+    "pages/planing/planing",
+    "pages/planing/stageInfoPage",
     "pages/index/index",
     "pages/center/center",
-    "pages/create/create"
+    "pages/create/create",
+    "pages/training/Doing"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "iconPath": "assets/images/bar-create.png",
         "selectedIconPath": "assets/images/bar-create.png",
-        "pagePath": "pages/create/create",  
-        "text": "计划" 
+        "pagePath": "pages/create/create",
+        "text": "计划"
       },
       {
         "iconPath": "assets/images/bar-index.png",
         "selectedIconPath": "assets/images/bar-index.png",
-        "pagePath": "pages/index/index",  
-        "text": "主页" 
+        "pagePath": "pages/index/index",
+        "text": "主页"
       },
       {
         "iconPath": "assets/images/bar-center.png",
         "selectedIconPath": "assets/images/bar-center.png",
-        "pagePath": "pages/center/center",  
-        "text": "个人中心" 
+        "pagePath": "pages/center/center",
+        "text": "个人中心"
       }
     ]
   },

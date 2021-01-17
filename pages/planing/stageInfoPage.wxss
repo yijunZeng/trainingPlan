@@ -1,0 +1,47 @@
+/* pages/planing/stageInfoPage.wxss */
+.body-wrap{
+  height: 1000rpx;
+  overflow-y: scroll;
+}
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px #cccccc solid;
+  text-align: center;
+  font-size: 32rpx;
+}
+.item{
+  position: relative;
+}
+.delete-wrap{
+  position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    top: 20rpx;
+    right: 20rpx;
+    text-align: center;
+}
+.btn-delete{
+  width: 70rpx;
+  height: 70rpx;
+}
+.btn-wrap{
+  padding-top: 20rpx;
+  display: flex;
+}
+.btn-add{
+  width: 30%;
+  height: 68rpx;
+  border-radius: 20rpx;
+  color: #ffffff;
+  font-size: 28rpx;
+  background: linear-gradient(to bottom right,#a7a7ca,#2863e2);
+}
+.btn-save{
+  width: 30%;
+  height: 68rpx;
+  border-radius: 20rpx;
+  color: #ffffff;
+  font-size: 28rpx;
+  background: linear-gradient(to bottom right,#a7a7ca,#2863e2);
+}

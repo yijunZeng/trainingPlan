@@ -1,0 +1,22 @@
+<!--components/Calendar/Calendar.wxml-->
+<view>
+    <view class="header-line">
+        <image src="../../assets/images/icon/icon_arrow_left.png" class="turn-left" bindtap="getLastMonth"></image>
+        <text class="month-text">{{theMonthCh}}</text>
+        <image src="../../assets/images/icon/icon_arrow_right.png" class="turn-right" bindtap="getNextMonth"></image>
+    </view>
+    <view class="week-dates">
+        <view wx:for="{{weeks}}" wx:for-item="week" wx:key="weekIndex" class="week-item">{{week}}</view>
+    </view>
+    <view class="week-dates">
+        <view 
+        wx:for="{{dateList}}" 
+        wx:for-item="date" 
+        wx:key="index" 
+        bindtap="clickDate"
+        data-value="{{date}}"
+        class="'date-item' {{(date === currentDate && theMonth === currentMonth) ? 'current-date' : ''}} {{(date === activeDate && !changeMonthFlag) ? 'date-active' :''}}">
+        {{date}}
+        </view>
+    </view>
+</view>

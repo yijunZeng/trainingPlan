@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "PreviewList":"/components/PreviewList/PreviewList",
+    "TrainSwiper":"/components/TrainSwiper/TrainSwiper"
+  }
+}

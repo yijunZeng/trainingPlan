@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "BaseMovement":"/components/BaseMovement/BaseMovement",
+    "TagsList":"/components/TagsList/TagsList"
+  }
+}

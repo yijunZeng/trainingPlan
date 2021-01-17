@@ -1,0 +1,13 @@
+<!--pages/planing/planing.wxml-->
+<view class="planing-container">
+    <view class="header">
+        <view class="header-date"><image class="date-icon" src="../../assets/images/icon/date-icon.png"></image> 日期：2020-10-10</view>
+        <view class="header-primary">
+            <image class="edit-icon" src="../../assets/images/icon/edit.png"></image>
+            <input type="text" placeholder="训练主题" class="primary-theme"/>
+        </view>
+    </view>
+    <view class="tags-wrap">
+        <TagsList></TagsList>
+    </view>
+</view>

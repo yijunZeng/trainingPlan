@@ -1,0 +1,42 @@
+/* pages/planing/planing.wxss */
+.planing-container{
+    min-height: 100vh;
+    background: rgb(245, 245, 245);
+}
+.header{
+    padding: 40rpx 40rpx 0 40rpx;
+}
+.header-date{
+    padding-bottom: 10rpx;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    font-size: 36rpx;
+}
+.date-icon{
+    width: 40rpx;
+    height: 40rpx;
+}
+.header-primary{
+    display: flex;
+    align-items: center;
+    padding-left: 30rpx;
+    background: #ffffff;
+}
+.edit-icon{
+    width: 38rpx;
+    height: 38rpx;
+}
+.primary-theme{
+    height: 68rpx;
+    line-height: 68rpx;
+    
+}
+.add-movement{
+    width: 30%;
+    height: 68rpx;
+    border-radius: 20rpx;
+    color: #ffffff;
+    font-size: 28rpx;
+    background: linear-gradient(to bottom right,#a7a7ca,#2863e2);
+}

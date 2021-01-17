@@ -1,0 +1,8 @@
+<!--components/BaseInput/BaseInput.wxml-->
+<input 
+  type="text" 
+  bindblur='getInputValue' 
+  placeholder="{{placeholder}}" 
+  class="action-name"
+  value="{{valueStr}}"
+/>
